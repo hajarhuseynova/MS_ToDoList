@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(176, 114, 137, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+.card {
+  width: 983px;
+  height: 90%;
+  border-radius: 23.39px;
+  background-color: #fff;
+  box-shadow: 0px 4.6777777671813965px 4.6777777671813965px 0px
+    rgba(255, 255, 255, 1);
+}
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 1px; /* Set your desired width here */
+}
+
+/* Optional: You can also style the track and handle */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the handle */
+  border-radius: 5px; /* Border radius of the handle */
+}
+
+h3 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  margin-top: 28px;
+  margin-bottom: 51px;
+}
+.text {
+  margin-right: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.mar {
+  margin-right: 61px;
+}
+.general {
+  display: flex;
+}
+.title {
+  width: 135.493px;
+  color: #0f0e17;
+  font-family: Inter;
+  font-size: 18.711px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+button {
+  width: 149px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #e53170;
+  border-color: transparent;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18.711px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 119px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 33px;
+}
+select:focus {
+  outline: none;
+}
+button:hover {
+  background-color: rgba(176, 114, 137, 1);
+}
+svg {
+  width: 20.085px;
+  height: 20.085px;
+  flex-shrink: 0;
+}
+
+.margin {
+  margin-left: 23px;
+}
+input {
+  width: 290px;
+  height: 42px;
+  padding-left: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #e53170;
+  background: #fff;
+}
+input:focus {
+  outline: none;
+}
+select {
+  width: 290px;
+  height: 42px;
+  padding-left: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #e53170;
+  background: #fff;
+}
+.options {
+  height: 60%;
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 27px;
+  overflow-y: scroll;
+}
+.option {
+  width: 415.611px;
+  height: 84.2px;
+  flex-shrink: 0;
+  border-radius: 11.694px;
+  background: #fff;
+  box-shadow: 0px 0px 9.35556px 0px #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+}
+.titletext {
+  color: #0f0e17;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 135.493px;
+  margin-left: 26px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+.dpnone {
+  display: none;
+}
+.selectopt {
+  display: flex;
+  width: 48.162px;
+  height: 23.017px;
+  padding: 3.508px 5.847px 3.508px 7.017px;
+  justify-content: center;
+  align-items: center;
+  gap: 9.356px;
+  flex-shrink: 0;
+  border-radius: 4.678px;
+  background: #fceef5;
+  margin-left: 26px;
+}
+.selectopt > p {
+  color: #571032;
+  font-family: Open Sans;
+  font-size: 11.694px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.images {
+  margin-top: 27px;
+}
+svg {
+  width: 23.378px;
+  height: 21.05px;
+  flex-shrink: 0;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.last {
+  margin-right: 26px;
+}
